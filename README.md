@@ -27,7 +27,7 @@ Discord Developer Portalで作成したBotを、利用するDiscordサーバー�
 - メッセージ履歴を閲覧
 - メッセージを送信
 
-メッセージ本文を読み取るには、Botの設定やサーバーの状態によって **Message Content Intent** の有効化が必要です。
+新着メッセージはDiscord Gatewayからリアルタイムで受信します。メッセージ本文を表示するには、Discord Developer PortalのBot設定で **Message Content Intent** を有効にしてください。BotにこのIntentが許可されていない場合、Gateway接続が拒否されます。
 
 ### 4. WebCordを使う
 
