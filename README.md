@@ -27,13 +27,14 @@ Discord Developer Portalで作成したBotを、利用するDiscordサーバー�
 - メッセージ履歴を閲覧
 - メッセージを送信
 
-新着メッセージはDiscord Gatewayからリアルタイムで受信します。メッセージ本文を表示するには、Discord Developer PortalのBot設定で **Message Content Intent** を有効にしてください。BotにこのIntentが許可されていない場合、Gateway接続が拒否されます。
+Guildの新着メッセージは`GUILD_MESSAGES`、DMの新着メッセージは`DIRECT_MESSAGES`を使ってDiscord Gatewayからリアルタイムで受信します。メッセージ本文を表示するには、Discord Developer PortalのBot設定で **Message Content Intent** を有効にしてください。BotにこのIntentが許可されていない場合、Gateway接続が拒否されます。
 
 ### 4. WebCordを使う
 
 1. デプロイ完了後に表示される`*.vercel.app`のURLを開きます。
 2. 左側の入力欄にDiscord **Botトークン**を入力し、**接続する**を押します。
 3. サーバーとテキストチャンネルを選ぶと、最近のメッセージが表示されます。入力欄からメッセージを送信できます。
+4. DMを始めるには、サイドバーの「ダイレクトメッセージ」横にある **＋** を押し、相手のDiscordユーザーIDを入力して **DMを開く** を押します。WebCordで開いたDMは、そのタブの接続中に一覧へ表示されます。
 
 ## トークンの取り扱い
 
