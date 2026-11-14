@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/v10/[...path].js": {
+    "api/discord.js": {
       "maxDuration": 15
     }
   }
