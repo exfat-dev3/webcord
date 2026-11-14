@@ -7,7 +7,7 @@ Vercelで動く、Discord Bot用の小さなチャットクライアントです
 ### 1. GitHubにプロジェクトを用意する
 
 1. このフォルダのファイルをGitHubリポジトリに登録します。
-2. `index.html`、`vercel.json`、`api/v10/[...path].js` がリポジトリに含まれていることを確認します。
+2. `index.html`、`vercel.json`、`api/discord.js` がリポジトリに含まれていることを確認します。
 
 ### 2. Vercelにインポートする
 
@@ -17,7 +17,7 @@ Vercelで動く、Discord Bot用の小さなチャットクライアントです
 4. Framework Presetは **Other** を選択します。ビルドコマンド、インストールコマンド、出力ディレクトリの指定は不要です。
 5. **Deploy**を押します。
 
-Vercelはルートの`index.html`を静的ページとして配信し、`api/v10/[...path].js`をDiscord API中継用のFunctionとして実行します。環境変数の設定は不要です。
+Vercelはルートの`index.html`を静的ページとして配信し、`api/discord.js`をDiscord API中継用のFunctionとして実行します。環境変数の設定は不要です。
 
 ### 3. Botをサーバーに追加する
 
