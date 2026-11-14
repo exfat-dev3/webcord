@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/v10/[...path].js": {
+      "maxDuration": 15
+    }
+  }
+}
